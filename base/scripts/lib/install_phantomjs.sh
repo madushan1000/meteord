@@ -1,6 +1,6 @@
 # Install PhantomJS
 set -e
-apt-get -y install libfreetype6 libfreetype6-dev fontconfig
+apk add freetype freetype-dev fontconfig
 ARCH=`uname -m`
 PHANTOMJS_VERSION=1.9.8
 PHANTOMJS_TAR_FILE=phantomjs-${PHANTOMJS_VERSION}-linux-${ARCH}.tar.bz2

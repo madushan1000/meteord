@@ -1,4 +1,5 @@
 #!/bin/bash
 set -e
-apt-get update -y
-apt-get install -y curl bzip2 build-essential python git
+apk update
+apk upgrade
+apk add --update curl bzip2 python git build-base
