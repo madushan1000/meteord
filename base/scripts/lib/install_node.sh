@@ -11,6 +11,7 @@ cd /tmp
 curl -O -L http://nodejs.org/dist/v${NODE_VERSION}/${NODE_DIST}.tar.gz
 tar xzf ${NODE_DIST}.tar.gz
 rm -rf /opt/nodejs
+mkdir -p /opt
 mv ${NODE_DIST} /opt/nodejs
 
 ln -sf /opt/nodejs/bin/node /usr/bin/node
