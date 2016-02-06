@@ -2,4 +2,4 @@
 set -e
 apk update
 apk upgrade
-apk add --update curl bzip2 python git build-base
+apk add --update curl bash bzip2 python git build-base
